@@ -1,0 +1,39 @@
+
+.reset-scroll{
+    width: 40px;
+    height: 40px;
+    background-color: darkgreen;
+    color: rgba(67, 13, 13, 0.456);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.area{
+    height: 500vh;
+}
+.item{
+    background-color:rgba(255, 255, 255, 0.358)
+    height: 100%;
+}
+.item p{
+    font-size: 20px;
+}
+.item .badge{
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    border-radius: 7.5px;
+    color: rgba(255, 255, 255, 0.271);
+    background-color: darkcyan;
+    top: 10px;
+    right: 10px;
+}
+.pos-rel{
+    position: relative;
+}
+i{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
